@@ -1,10 +1,12 @@
 public class AnnomynousInnerClasses {
     public static void main(String[] args) {
+        // anonymous inner class
         Animal animal=new Animal(){
             public void makeNoise(){
                 System.out.println("bbbbbbb");
             }
         };
+        // anonymous inner class
         Animal animal1= new Animal(){
             void go(){
                 System.out.println("i can fly");
